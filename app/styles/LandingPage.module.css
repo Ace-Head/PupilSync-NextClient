@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  min-height: 100vh;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -10,7 +11,8 @@
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   min-height: 100%;
-  min-width: 100%;
+
+  max-width: 50vw;
   color: white;
 }
 
@@ -18,13 +20,18 @@
   align-self: center;
   color: white;
   border-radius: 10px;
-  width: 70vw;
+  max-width: 50vw;
+  min-height: 30vh;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+
   position: relative;
   padding: 2rem; /* Optional: Add padding to make the content look better */
-  background-color: rgb(
+  background-color: rgba(
     40,
     38,
-    38
+    38,
+    0.9
   ); /* Optional: Add a semi-transparent background */
 }
 
@@ -50,7 +57,6 @@
     transparent 50%,
     #5a1075,
     blue,
-    red,
     purple
   );
   animation: 3s spin linear infinite;

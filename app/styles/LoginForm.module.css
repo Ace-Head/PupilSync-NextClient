@@ -85,11 +85,12 @@
 
 .submitButton {
   background: white;
-  color: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  color: #5a1075;
   border: none;
   padding: 12px 20px;
   border-radius: 5px;
   font-size: 1rem;
+  font-weight: 600;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
