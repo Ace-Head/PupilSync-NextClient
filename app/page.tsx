@@ -2,6 +2,7 @@
 import { Em, Strong, Text } from "@radix-ui/themes";
 import styles from "./styles/LandingPage.module.css";
 import LandingCompanies from "./components/LandingCompanies";
+import StatisticsSection from "./components/StatisticsSection";
 const Home: React.FC = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home: React.FC = () => {
         </div>
       </div>
       <LandingCompanies />
+      <StatisticsSection />
     </div>
   );
 };
